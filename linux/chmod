@@ -1,0 +1,21 @@
+chmod 777 path
+
+permissions
+[rwx-] read, write, execute, none
+
+leftmost 3 digits - user
+middle 3 digits - group
+rightmost 3 digits - others
+
+rwxrwxrwx ~ 777
+
+Numbers:
+
+4(r) + 2(w) + 1(x)
+4(r) + 2(w)
+4(r) + 1(x)
+4(r)
+2(w) + 1(x)
+2(w)
+1(x)
+0
